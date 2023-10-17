@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.a4{
+background-color: aqua;
+}
+.content{
+    background-color: red;
+    border: 12px solid greenyellow;
+    max-width: 900px;
+    margin: auto;
+    height: auto;
+}
+.top-cont{
+display: flex;
+justify-content: space-around;
+padding: 19px;
+}
+.img-box{
+    /* border: 1px solid black; */
+    height: 400px;
+}
+.img-box img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 49px;
+}
+.name{
+    align-self: flex-end;
+
+}
+.mid-top{
+    padding: 19px;
+}

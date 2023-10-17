@@ -1,0 +1,15 @@
+.form-control{
+    padding: 12px;
+    
+}
+input{
+    padding: 4px;
+
+}
+option{
+    background-color: turquoise;
+}
+label{
+    text-transform: uppercase;
+}
+

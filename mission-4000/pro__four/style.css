@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.appl_ox{
+max-width: 600px;
+padding: 20px;
+margin: 0 auto;
+background-color: aliceblue;
+margin-top: 55px;
+box-shadow: 2px 4px 10px red;
+border-radius: 10px;
+}

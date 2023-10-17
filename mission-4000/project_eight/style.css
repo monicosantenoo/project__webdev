@@ -1,0 +1,90 @@
+*{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+}
+body{
+    /* background:green; */
+    
+}
+.container{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0px auto;
+}
+.web-align{
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cont-ryt{
+     display: flex;
+     justify-content: space-between;
+     gap: 34px;
+}
+.cont-ryt input{
+    width: 400px;
+    border: 0px;
+    outline: 0px;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: large;
+}
+
+ button{
+    padding: 10px;
+    background:#00b386;
+    /* background-color: #66e3c4; */
+    color: white;
+    transition: 0.50s ease-in-out;
+    width: 200px;
+    font-size: large;
+    outline: 0px;
+    border: 0px;
+    border-radius: 4px;
+}
+.cont-ryt button:hover{
+    background-color: #66e3c4;
+}
+hr{
+    color: grey;
+    margin-top: 12px;
+}
+/*HERO- SECTION   */
+.hero-section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+.hero-section .left-hero h1{
+  
+}
+
+.left-hero p{
+    font-size: large;
+    color: burlywood;
+    width: 600px;
+  
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    margin-top: 120px;
+}
+.calculator input{
+height: 48px;
+width: 55%;
+}
+.calculator button{
+    background: red;
+}
